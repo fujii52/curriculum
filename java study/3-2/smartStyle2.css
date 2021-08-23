@@ -1,0 +1,22 @@
+@media screen and(max-width: 767px) {
+   .header{
+        width: 300px;
+   }
+    .left{
+        width: 100px;
+    }
+    .right{
+        width: 200px;
+    }
+    .right-left{
+        width: 125px;
+    }
+    .right-right{
+        width: 75px;
+    }
+}
+@media screen and (max-width: 150px){
+    .wrapper{
+        width: 150px;
+    }
+}
