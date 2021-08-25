@@ -1,3 +1,16 @@
+/* body{
+    min-height:100%;
+    height:100%;
+}*/
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+} 
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
 .header{
     width: 400px;
     height: 100px;
@@ -14,33 +27,21 @@
     height: 250px;
     float: left;
 }
-.right-upper{
-    width: 250px;
-    height: 150px;
-    
-}
-.right-reft{
-    width: 150px;
-    height: 150px;
-    float: left;
-}
 .right-up{
     width: 150px;
     height: 50px;
     background-color: #dbd400;
-    float: left;
 }
 .right-inner{
     width: 150px;
     height: 100px;
     background-color: #0093b7;
-    float: left;
 }
 .right-right{
     width: 100px;
     height: 150px;
     background-color: #ff9e6b;
-    float: left;
+    float: right;
 }
 .right-lower{
     width: 250px;
@@ -53,8 +54,4 @@
     height: 100px;
     background-color: #d98d30;
 }
-.clearfix::after { 
-    content: '';
-    display: block; 
-    clear: both;
-}
+
