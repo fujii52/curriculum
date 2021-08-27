@@ -1,0 +1,63 @@
+@media screen and (max-width: 474px){
+    .wrapper{
+        width: 200px;
+    }
+    .header{
+        width: 200px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .header-inner{
+        width: 50px;
+        height: 100px;
+        margin-right: 70px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .header-A{
+        width: 30px;
+        height: 30px;
+    }
+    .header-B{
+        width: 30px;
+        height: 30px;
+    }
+    .header-C{
+        width: 30px;
+        height: 30px;
+    }
+    .left{
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+    .right{
+        position:relative;
+        top: -20px;
+        width: 200px;
+        height: 220px;
+        float: none;
+    }
+    .right-a{
+        position: relative;
+        top:20px;
+        margin: 20px 30px 10px 30px;
+    }
+    .right-b{
+        position: relative;
+        top:20px;
+        margin: 10px 30px;
+    }
+    .right-c{
+        position: relative;
+        top:20px;
+        margin: 10px 30px 20px 30px;
+    }
+    .footer{
+        position: relative;
+        top:-20px;
+        width: 200px;
+    }
+}
