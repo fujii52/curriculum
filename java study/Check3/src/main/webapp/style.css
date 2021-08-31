@@ -1,0 +1,29 @@
+.header{
+	background-color: gray;
+	font-size: 10px;
+}
+.login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
+
+.date{
+	padding: 10px;
+	font-size: 10px;	
+
+} 
+.end{
+	background-color: gray;
+}
+.hoge{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.center{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
