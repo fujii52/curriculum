@@ -1,0 +1,13 @@
+--問1--
+・Switch3：4097
+
+--問2--
+・Switch1 F0/1 DP ルートポートの対向ポートだから
+・Switch1 F0/2 RP ルートブリッジの対向ポートだから
+・Switch2 F0/1 DP コストが少ないからルートポート
+・Switch2 F0/2 BP 役割がないから
+・Switch3 E0/1 DP ルートブリッジだから
+・Switch3 E0/2 DP ルートブリッジだから
+・Switch4 E0/1 DP ブリッジIDが小さいから
+・Switch4 E0/2 RP ルートブリッジの対向ポートだから
+
